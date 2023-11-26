@@ -13,8 +13,6 @@ app.use(cors());
 
 app.use('/static',express.static('public'))
 
-// reeeeeeee
-
 app.use("/images", imagesRoutes);
 
 app.use("/profiles", profilesRoutes)
